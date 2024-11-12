@@ -26,25 +26,25 @@ Feel free to edit README.md or add other relevant documents. Follow the Contribu
 
 
 Getting Started
-1.Fork the Repository:
+1. Fork the Repository:
   Go to the project’s GitHub page and click Fork.
   Clone the forked repository to your local machine:
-  ex:git clone https://github.com/YOUR_USERNAME/simple-interest-calculator.git
-2.Create a New Branch:
+  ex: git clone https://github.com/YOUR_USERNAME/simple-interest-calculator.git
+2. Create a New Branch:
   Make sure you’re working in a new branch for your changes:
-  ex:git checkout -b feature/your-feature-name
-3.Make your changes:
+  ex: git checkout -b feature/your-feature-name
+3. Make your changes:
   Edit the shell script to fix bugs or add new functionality.  
   Ensure your code is well-commented and follows the code style guidelines (see below).
-4.Test Your Changes
+4. Test Your Changes
   Manually test the script in your terminal to confirm it works as expected with various inputs.
   If possible, test in multiple environments (e.g., different operating systems) to ensure compatibility.
-5.Commit your changes
+5. Commit your changes
   Commit with a descriptive message:
-  ex:git commit -m "Add feature X to calculate additional interest types"
-6.Push to your fork and create a pull request:
+  ex: git commit -m "Add feature X to calculate additional interest types"
+6. Push to your fork and create a pull request:
   push your branch to GitHub:
-  ex:git push origin feature/your-feature-name
+  ex: git push origin feature/your-feature-name
   Go to the main project's GitHub page and click New Pull Request.
   Select your branch, provide a detailed description of your changes, and submit the pull request.
 
