@@ -50,11 +50,10 @@ Getting Started
 
   Code Style Guidelines:
     Use clear, concise comments to explain any complex or non-obvious parts of the code.
-
     Follow standard Bash scripting conventions:
-      Indent code consistently.
-      Use lowercase variable names where possible and descriptive variable names for clarity.
-      Avoid hardcoding paths or values; use variables to make the script adaptable.
+    Indent code consistently.
+    Use lowercase variable names where possible and descriptive variable names for clarity.
+    Avoid hardcoding paths or values; use variables to make the script adaptable.
     Prefer printf over echo for output, as it’s more portable across different systems.
     Use #!/bin/bash at the beginning of the script to specify the shell interpreter.
 
