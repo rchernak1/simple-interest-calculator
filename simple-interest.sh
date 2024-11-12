@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Function to calculate simple interest
+# Function to calculate simple interest using awk instead of bc
 calculate_simple_interest() {
     principal=$1
     rate=$2
     time=$3
-    # Calculate interest using shell arithmetic
-    interest=$(echo "scale=2; ($principal * $rate * $time) / 100" | bc)
+    # Calculate interest using awk for floating-point arithmetic. uSING awk instead of bc 
+    interest=$(awk "BEGIN {print ($principal * $rate * $time) / 100}")
     echo $interest
 }
 
