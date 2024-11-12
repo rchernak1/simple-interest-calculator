@@ -1,6 +1,7 @@
-Contributing to Simple Interest Calculator
+Contributing to the Simple Interest Calculator
+
 Thank you for considering contributing to this project! 
-We welcome contributions that help improve our code, documentation, and overall user experience. To make the process smooth for everyone involved, please read through these guidelines.
+We welcome contributions that help improve our code, documentation, and overall user experience. Please read through these guidelines to make the process smooth for everyone involved.
 
 How Can You Contribute?
 
@@ -20,7 +21,7 @@ Test your code to confirm that it doesn’t introduce new issues.
 Once your changes are complete, submit a pull request with a clear explanation of what you’ve done.
 
 Improving Documentation:
-If you find any errors in documentation or feel an area could use more clarity, we’d love your input.
+We'd love your input if you find any errors in the documentation or feel an area could be clearer.
 Feel free to edit README.md or add other relevant documents. Follow the Contribution Steps: Use the same steps for code contributions to propose documentation changes.
 
 
@@ -42,7 +43,7 @@ Getting Started
   Commit with a descriptive message:
   ex:git commit -m "Add feature X to calculate additional interest types"
 6.Push to your fork and create a pull request:
-  push your branche to GitHub:
+  push your branch to GitHub:
   ex:git push origin feature/your-feature-name
   Go to the main project's GitHub page and click New Pull Request.
   Select your branch, provide a detailed description of your changes, and submit the pull request.
@@ -58,7 +59,7 @@ Getting Started
     Use #!/bin/bash at the beginning of the script to specify the shell interpreter.
 
   Community and Conduct
-  Please review our Code of Conduct to make sure interactions are respectful and constructive.
+  Please review our Code of Conduct to ensure respectful and constructive interactions.
 
   Thank you 
   We appreciate your interest in improving the Simple Interest Calculator project! Every contribution counts and helps make this project more useful for others.
