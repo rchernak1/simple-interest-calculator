@@ -1,33 +1,46 @@
-# simple-interest-calculator
-A script to calculate simple interest for a micro-finance project
-<!-- #How to Clone -->
-    1. Go to the GitHub page of the repository you want to clone.
-    2. Click on the Code button (usually in green) on the repository’s main page.
-    3. Copy the repository URL: If you’re using HTTPS, the URL will look something like https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git.
-    4. If you’re using SSH (recommended if you have an SSH key set up), the URL will look something like git@github.com:YOUR_USERNAME/REPOSITORY_NAME.git.
-    5. In terminal or CMD prompt - navigate to the directory you want to clone the repo
-        ex: cd path/to/your/directory
-    6. Use the git clone command followed by URL you copied from GitHub.  
-        ex:git clone https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git
-        if using SSH: ex:git clone git@github.com:YOUR_USERNAME/REPOSITORY_NAME.git
-
-<!-- How the code works -->
-    To run the code for this project follow these steps (assuming you are working with Python)
-        1. Check that you have Python installed by opening your terminal or command prompt and type: Python --version
-            a. if you see a version number, Python is installed
-            b. if not, download and install Python from python.org
-        2. Navigate to the Project Directory
-            a. Open a terminal or command prompt
-            b. Use the cd command to change directories to where your script is located. For example: cd path/to/your/simple-interest-calculator
-        3. Run the Script
-            a. python simple_interest.py
-            b. The script will prompt you to enter values if it's written to take input, for example:
-                Enter the principal amount:
-                Enter the rate of interest:
-                Enter the time in years:
-        4. After entering values, yo will see output 
+Simple Interest Calculator
 
 
-    This will let you test the script locally and ensure it's working as expected.
+The Simple Interest Calculator is a simple command-line tool designed to calculate the simple interest based on user-provided values for the principal amount, interest rate, and time period. This calculator can be useful for individuals or organizations looking to quickly determine interest on a given principal over a specified time, aiding in financial planning or assessment of loan interest.
 
-<!-- Project is licensed under Apache License 2.0 -->
+Installation Instructions
+Prerequisites: Ensure that you have Git and Bash installed on your system.
+
+Clone the Repository
+    Open a terminal or command prompt.
+    Clone the repository from GitHub by running the following command:
+    git clone https://github.com/YOUR_USERNAME/simple-interest-calculator.git
+
+Navigate into the project directory
+    cd simple-interest-calculator
+
+Running the Script
+    Make the shell script executable and then run it in the terminal:
+    Grant execute permissions to the script:
+    chmod +x simple_interest.sh
+
+    Run the script:
+    ./simple_interest.sh
+
+Usage Example
+When you run the script, it will prompt you to enter values for the principal amount, rate of interest, and time in years. Below is an example of how to use the script.
+
+Example Input/Output
+plaintext
+$ ./simple_interest.sh
+Enter the principal amount:
+1000
+Enter the rate of interest:
+5
+Enter the time in years:
+2
+The simple interest is: 100.00
+
+In this example:
+The principal amount is 1000.
+The rate of interest is 5% per year.
+The time is 2 years.
+The resulting simple interest calculated by the script is 100.00.
+
+License
+This project is licensed under the Apache License 2.0. You can use, modify, and distribute this software, provided that you comply with the terms of the license. For more information, refer to the LICENSE file included in this repository.
