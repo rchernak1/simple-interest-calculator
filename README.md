@@ -26,7 +26,7 @@ Run the script:
 Usage Example
 When you run the script, it will prompt you to enter values for the principal amount, rate of interest, and time in years. Below is an example of how to use the script.
 
-Example Input/Output
+Example of Input/Output
 
 $ ./simple_interest.sh
 Enter the principal amount:1000
@@ -36,8 +36,8 @@ The simple interest is: 100.00
 
 In this example:
 The principal amount is 1000.
-The rate of interest is 5% per year.
-The time is 2 years.
+The rate of interest is 5% per year
+The time is 2 years
 The resulting simple interest calculated by the script is 100.00.
 
 License
